@@ -6,6 +6,7 @@ jobs:
   container-test-job:
     runs-on: ubuntu-latest
     container:
+      using: 'docker'
       image: 'Dockerfile'
     steps:
       - name: Check for dockerenv file
