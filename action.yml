@@ -14,4 +14,4 @@ runs:
   image: 'Dockerfile'
   args:
     - ${{ inputs.who-to-greet }}
-  entrypoint: './entrypoint.sh'
+  entrypoint: 'python /home/app.py'
