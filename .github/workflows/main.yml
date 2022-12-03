@@ -1,4 +1,4 @@
-ion: [push]
+on: [push]
 
 jobs:
   hello_world_job:
