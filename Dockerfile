@@ -152,5 +152,6 @@ RUN set -eux; \
 	\
 	pip --version
 
+RUN apt update
 RUN apt install -y vim 
 COPY app.py /home/app.py
