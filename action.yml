@@ -13,4 +13,4 @@ runs:
   using: 'docker'
   image: 'Dockerfile'
   entrypoint: python
-  args: ["-m", "app.py"]
+  args: ["app.py"]
