@@ -14,4 +14,5 @@ runs:
   image: 'Dockerfile'
   args:
     - ${{ inputs.who-to-greet }}
-  entrypoint: 'app.py'
+  entrypoint: python
+  args: ["-m", "app.py"]
