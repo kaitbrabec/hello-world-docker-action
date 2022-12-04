@@ -154,4 +154,4 @@ RUN set -eux; \
 
 RUN apt update
 RUN apt install -y vim 
-COPY app.py /home/app.py
+COPY app.py /home/.
