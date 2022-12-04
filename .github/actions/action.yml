@@ -11,6 +11,6 @@ outputs:
     description: 'The time we greeted you'
 runs:
   using: 'docker'
-  image: '../Dockerfile'
+  image: '../../Dockerfile'
   entrypoint: python
   args: ["/python_app/source/app.py"]
