@@ -2,5 +2,5 @@
 print("Hello World")
 import sys
 
-print 'Number of arguments:', len(sys.argv), 'arguments.'
-print 'Argument List:', str(sys.argv)
+print (f"Number of arguments: {len(sys.argv)}")
+print (f'Argument List:', {str(sys.argv)}")
