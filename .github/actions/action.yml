@@ -13,5 +13,6 @@ runs:
   using: 'docker'
   image: '../../Dockerfile'
   # command that will be run by the container (instanciated from the image built from our dockerfile that give just above)
+  # for instance on our laptop we do docker run -it <id> [entrypoint] => example: docker run -it 987498349 bash
   entrypoint: python
   args: ["/python_app/source/app.py", "${{ inputs.who-to-greet }}"]
